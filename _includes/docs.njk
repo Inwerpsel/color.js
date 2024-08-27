@@ -2,11 +2,13 @@
 layout: "page.njk"
 ---
 
+<div class="fix" style="">
 <aside id="toc">
 <ul>
 {% include "partials/_docs-nav.njk" %}
 </ul>
 </aside>
+</div>
 {{ content | safe }}
 
 {% include "partials/_footer-docs.njk" %}
